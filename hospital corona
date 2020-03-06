@@ -1,0 +1,14 @@
+nome = input("digite nome do paciente:")
+idade = int(input("digite idade do paciente "))
+risco = input("eh grupo de risco? (sim ou não)").upper()
+
+if risco != "SIM" and risco != "NÃO":
+    risco = input("Entra somente sim ou não").upper()
+
+    if idade < 15 or idade >60:
+        print ("grupo perigo")
+    elif risco == "SIM":
+        print ("grupo de doença!!")
+    else:
+        print("tranquilo!!")
+    
