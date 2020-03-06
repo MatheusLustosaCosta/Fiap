@@ -1,0 +1,4 @@
+notaum = 7
+notadois = 4
+media = (notaum+notadois)/2
+print ("sua media eh",media)
