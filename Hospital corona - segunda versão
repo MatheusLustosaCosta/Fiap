@@ -1,0 +1,13 @@
+
+nome = input("nome do paciente")
+idade = int (input("digite sua idade"))
+if idade < 15 or idade > 60:
+	print( "prioritario" )
+	exit()
+risco = input("esta em grupo de risco sim ou não:".upper()
+if risco != "SIM" and risco != "NÃO":
+	risco = input("digite apenas sim ou não: ").upper()
+if risco == "SIM":
+	print("prioritario")
+else:
+	print("fila comum")
